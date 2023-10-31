@@ -24,3 +24,20 @@ Along with data of the crimes committed in York Region including date, district 
 3. **ICU Data**: Number of covid related patients in ICU in York Region.
 
 4. **Holidays**: Holidays in Ontario.
+
+#### Feature Engineeering
+
+Next step is feature Engineering. We massage the distribution of features including feature standardization and skewness correction add new features to dataset. Particularly:
+
+  
+1. **Weighted Moving Averages**: We create mutiple new features with taking weighted averges of different features of original dataset like number of crimes, mean temperature, log of precipitation, snow on ground, icu patients and unemployment rate over the last 30 days with differnt weights.
+   
+2. **Data Transformation**: Some models are sensitive to skewness of features so we will correct it.
+
+3. **Feature Standardization**: We apply minmax scaler on fearues.
+
+### Data Visualization
+
+We visualize daily number of crimes aloan with some features. We also visualize correlation matrix between features and target value.
+
+
