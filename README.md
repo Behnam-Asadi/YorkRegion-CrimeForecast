@@ -37,7 +37,7 @@ In order to improve model performance, we undertake several feature engineering 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/skewness.jpeg" align='center' width="700">
 </div>
-<br>
+
 3. **Feature Standardization**: MinMax scaling is applied to normalize the features.
 
 ### Data Visualization
