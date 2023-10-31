@@ -78,3 +78,8 @@ We plot target objective function with is 30-day average of number of crimes per
 <img src="src/img/correlation_matrix.jpeg" align='center' width="700">
 </div>
 <br>
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/target.jpeg" align='center' width="700">
+</div>
+<br>
