@@ -58,12 +58,7 @@ In order to improve model performance, we undertake several feature engineering 
 
 ### Data Visualization
 
-We plot some visualizations of the daily crime numbers along with selected features. Additionally, a correlation matrix is rendered to showcase relationships between features and the target variable.
-
-<div align="center" style="padding-top:20px; padding-bottom:200px;">
-<img src="src/img/features.jpeg" align='center' width="700">
-</div>
-<br>
+We plot distribution of number of crimes and its Q-Q plot compared to normal distribution. Additionally, a correlation matrix is rendered to showcase relationships between features and the target variable.
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/normality.jpeg" align='center' width="700">
@@ -72,5 +67,10 @@ We plot some visualizations of the daily crime numbers along with selected featu
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/qq.jpeg" align='center' width="700">
+</div>
+<br>
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/correlation_matrix.jpeg" align='center' width="700">
 </div>
 <br>
