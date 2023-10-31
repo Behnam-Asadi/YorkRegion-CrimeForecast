@@ -1,49 +1,45 @@
 # YorkRegion-CrimeForecast
 
-## Task 1
+## Task 1: 30-Day Crime Forecasting
 
-In this task, we aim to forecast the average number of crimes expected to occur in the upcoming 30 days. To achieve this, we use multiple features:
+### Objective
 
-1. **Historical Crime Data**: The number of crimes reported in the previous 30 days.
+The primary aim is to predict the average number of crimes that will occur in York Region over the next 30 days. We utilize a diverse set of features for this purpose:
+
+1. **Historical Crime Data**: Consisting of the number of crimes reported in the preceding 30 days.
   
-2. **External Features**: Various external indicators such as temperature, precipitation levels, and unemployment rates, among others, from the last 30 days.
+2. **External Features**: These include metrics like temperature, precipitation levels, and unemployment rates gathered from the last 30 days.
+  
+3. **Time Features**: These capture the seasonality and trends in the data.
 
-3. **Time Features**: Periodic time features that capture seasonality and trends in the data.
-
-By leveraging these features, we aim to build a predictive model that can accurately estimate the average number of crimes for the next 30 days.
+We intend to develop a predictive model that offers accurate estimates of the average number of crimes for the upcoming month.
 
 ### Data Preprocessing
 
-Along with data of the crimes committed in York Region including date, district and Number of Crimes committed between 2021 and August of 2023, we use following dataset:
+The data sources employed include information on crimes in York Region from 2021 to August 2023, as well as:
 
-
-1. **Unemployment Rate**: Ontario monthly unemployment rate which we resample it daily.
+1. **Unemployment Rate**: Using Ontario’s monthly unemployment rate data, we resample it to a daily frequency for compatibility.
   
-2. **Weather Data**: Mean Temp (°C), Total Precipitation (mm) and Snow on Ground
-
-3. **ICU Data**: Number of covid related patients in ICU in York Region.
-
-4. **Holidays**: Holidays in Ontario.
-
-#### Feature Engineeering
-
-We further refine the dataset through feature engineering. Particularly:
-
+2. **Weather Data**: Features like mean temperature (°C), total precipitation (mm), and snow on the ground.
   
-1. **Weighted Moving Averages**: We create mutiple new features with taking weighted averges of different features of original dataset like number of crimes, mean temperature, log of precipitation, snow on ground, icu patients and unemployment rate over the last 30 days with differnt weights.
-   
-2. **Skewness Correction**: Some models are sensitive to skewness of features so we will correct it.
-   
-<div align="center">
-<img  src="src/img/skewness.jpeg"  align = 'center' width="700">
+3. **ICU Data**: The number of COVID-related ICU patients in York Region.
+  
+4. **Holidays**: A list of public holidays in Ontario.
+
+#### Feature Engineering
+
+In order to improve model performance, we undertake several feature engineering steps:
+
+1. **Weighted Moving Averages**: New features are created through weighted averages of existing metrics like number of crimes, temperature, and more. These averages are computed over a 30-day span using different weight schemes.
+  
+2. **Skewness Correction**: Given that some machine learning models are sensitive to feature skewness, we correct for it.
+
+<div align="center" style="padding-top:20px;">
+<img src="src/img/skewness.jpeg" align='center' width="700">
 </div>
 
-
-
-3. **Feature Standardization**: We apply minmax scaler on fearues.
+3. **Feature Standardization**: MinMax scaling is applied to normalize the features.
 
 ### Data Visualization
 
-We visualize daily number of crimes aloan with some features. We also visualize correlation matrix between features and target value.
-
-
+We offer visualizations of the daily crime numbers along with select features. Additionally, a correlation matrix is rendered to showcase relationships between features and the target variable.
