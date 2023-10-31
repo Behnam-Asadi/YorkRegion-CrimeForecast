@@ -14,17 +14,33 @@ The primary aim is to predict the average number of crimes that will occur in Yo
 
 We intend to develop a predictive model that offers accurate estimates of the average number of crimes for the upcoming month.
 
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/daily_crimes.jpeg" align='center' width="700">
+</div>
+
 ### Data Preprocessing
 
 The data sources employed include information on crimes in York Region from 2021 to August 2023, as well as:
 
 1. **Unemployment Rate**: Using Ontario’s monthly unemployment rate data, we resample it to a daily frequency for compatibility.
+   
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/unemployment_rate.jpeg" align='center' width="700">
+</div>
   
 2. **Weather Data**: Features like mean temperature (°C), total precipitation (mm), and snow on the ground.
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/temperature.jpeg" align='center' width="700">
+</div>
   
-3. **ICU Data**: The number of COVID-related ICU patients in York Region.
+4. **ICU Data**: The number of COVID-related ICU patients in York Region.
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/icu.jpeg" align='center' width="700">
+</div>
   
-4. **Holidays**: A list of public holidays in Ontario.
+6. **Holidays**: A list of public holidays in Ontario.
 
 #### Feature Engineering
 
