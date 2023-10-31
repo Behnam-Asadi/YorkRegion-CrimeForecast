@@ -92,3 +92,5 @@ We trained various models including Linear models, Ridge, Lasso, Generalized Lin
 <img src="src/img/1st_poisson.jpeg" align='center' width="700">
 </div>
 <br> 
+
+Then we perform an Analysis of Significant Variables for the Poisson Model, focusing on the most important features based on their p-values. According to the assumptions of Poisson regression, the relationship between the log-transformed target variable (Target_Avg_Crimes_Next_Month) and these significant features should be linear. To assess this, we compute the empirical mean of the target variable for each feature and apply a log transformation to linearize these relationships. Scatter plots are generated and Lowess smoothing is applied to identify any underlying trends.
