@@ -108,7 +108,10 @@ Then we perform an Analysis of Significant Variables for the Poisson Model, focu
 As observed, some relationships are not linear. To address this, we introduce squared terms for certain variables to linearize the relationship between the log-transformed empirical mean of the target variable (Target_Avg_Crimes_Next_Month) and these features.
 
 We get the final model after applying these modification and retraining it.
-
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/2nd_poisson.jpeg" align='center' width="700">
+</div>
+<br>
 
 
 
