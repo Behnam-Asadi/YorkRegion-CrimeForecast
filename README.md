@@ -113,5 +113,9 @@ We get the final model after applying these modification and retraining it.
 </div>
 <br>
 
+Now we present final Forcast for the next 30 days.
+
+
+
 
 
