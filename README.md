@@ -42,7 +42,7 @@ The data sources employed include information on crimes in York Region from 2021
   
 4. **Holidays**: A list of public holidays in Ontario.
 
-The target variable appears to be quite volatile, showing significant fluctuations. This is particularly interesting when compared to another inherently unstable metric like the "Number of People in ICU."
+The target variable appears to be quite volatile, showing significant fluctuations. This is particularly interesting when compared to another inherently unstable data like the "Number of People in ICU."
 
 Additionally, it's worth noting a sudden decline in the dataset's last few days. This drop is likely due to a lag in data updating, rather than an actual decrease in incidents. To mitigate this issue, we will exclude the last 14 days from the training and validation processes to ensure the model's accuracy and reliability.
 
