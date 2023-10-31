@@ -115,7 +115,10 @@ We get the final model after applying these modification and retraining it.
 
 Now we present final Forcast for the next 30 days.
 
-
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/final_forcast.jpeg" align='center' width="700">
+</div>
+<br>
 
 
 
