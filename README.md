@@ -11,3 +11,16 @@ In this task, we aim to forecast the average number of crimes expected to occur 
 3. **Time Features**: Periodic time features that capture seasonality and trends in the data.
 
 By leveraging these features, we aim to build a predictive model that can accurately estimate the average number of crimes for the next 30 days.
+
+### Data Preprocessing
+
+Along with data of the crimes committed in York Region including date, district and Number of Crimes committed between 2021 and August of 2023, we use following dataset:
+
+
+1. **Unemployment Rate**: Ontario monthly unemployment rate which we resample it daily.
+  
+2. **Weather Data**: Mean Temp (°C)', Total Precipitation (mm) and Snow on Ground
+
+3. **ICU Data**: Number of covid related patients in ICU in York Region.
+
+4. **Holidays**: Holidays in Ontario.
