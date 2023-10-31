@@ -34,13 +34,13 @@ The data sources employed include information on crimes in York Region from 2021
 <img src="src/img/temperature.jpeg" align='center' width="700">
 </div>
   
-4. **ICU Data**: The number of COVID-related ICU patients in York Region.
+3. **ICU Data**: The number of COVID-related ICU patients in York Region.
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/icu.jpeg" align='center' width="700">
 </div>
   
-6. **Holidays**: A list of public holidays in Ontario.
+4. **Holidays**: A list of public holidays in Ontario.
 
 #### Feature Engineering
 
