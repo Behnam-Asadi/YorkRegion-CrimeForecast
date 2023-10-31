@@ -19,7 +19,7 @@ Along with data of the crimes committed in York Region including date, district 
 
 1. **Unemployment Rate**: Ontario monthly unemployment rate which we resample it daily.
   
-2. **Weather Data**: Mean Temp (°C)', Total Precipitation (mm) and Snow on Ground
+2. **Weather Data**: Mean Temp (°C), Total Precipitation (mm) and Snow on Ground
 
 3. **ICU Data**: Number of covid related patients in ICU in York Region.
 
