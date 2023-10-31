@@ -86,7 +86,7 @@ We plot target objective function with is 30-day average of number of crimes per
 
 ### Training and Validation
 
-We trained various models including Linear models, Generalized Linear Models (GLM), Random Forest, and Boosting Algorithms. As expected, the Poisson Regressor yielded the best results, given its suitability for predicting event rates over time
+We trained various models including Linear models, Ridge, Lasso, Generalized Linear Models (GLM), Random Forest, and Boosting Algorithms. As expected, the Poisson Regressor yielded the best results, given its suitability for predicting event rates over time
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/1st_poisson.jpeg" align='center' width="700">
