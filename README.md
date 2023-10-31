@@ -32,9 +32,11 @@ We further refine the dataset through feature engineering. Particularly:
   
 1. **Weighted Moving Averages**: We create mutiple new features with taking weighted averges of different features of original dataset like number of crimes, mean temperature, log of precipitation, snow on ground, icu patients and unemployment rate over the last 30 days with differnt weights.
    
-2. **Data Transformation**: Some models are sensitive to skewness of features so we will correct it.
+2. **Skewness Correction**: Some models are sensitive to skewness of features so we will correct it.
+   
 
-3. **Feature Standardization**: We apply minmax scaler on fearues.
+
+4. **Feature Standardization**: We apply minmax scaler on fearues.
 
 ### Data Visualization
 
