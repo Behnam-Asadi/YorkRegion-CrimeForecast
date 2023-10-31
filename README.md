@@ -35,7 +35,7 @@ We further refine the dataset through feature engineering. Particularly:
 2. **Skewness Correction**: Some models are sensitive to skewness of features so we will correct it.
    
 <div align="center">
-<img  src="src/img/skewness.png"  align = 'center' width="700">
+<img  src="src/img/skewness.jpeg"  align = 'center' width="700">
 </div>
 
 4. **Feature Standardization**: We apply minmax scaler on fearues.
