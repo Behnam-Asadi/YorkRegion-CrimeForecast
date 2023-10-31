@@ -83,3 +83,12 @@ We plot target objective function with is 30-day average of number of crimes per
 <img src="src/img/target.jpeg" align='center' width="700">
 </div>
 <br>
+
+### Training and Validation
+
+We try to train mutiple models; Linear, Random Forest, Boosting Algorithms etc. Unsurprisingly, the best results comes out of Possion Regressor model as the we are predicting 'rate' of an event during a time period.
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/target.jpeg" align='center' width="700">
+</div>
+<br> 
