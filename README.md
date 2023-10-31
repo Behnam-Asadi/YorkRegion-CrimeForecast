@@ -42,6 +42,10 @@ The data sources employed include information on crimes in York Region from 2021
   
 4. **Holidays**: A list of public holidays in Ontario.
 
+The target variable appears to be quite volatile, showing significant fluctuations. This is particularly interesting when compared to another inherently unstable metric like the "Number of People in ICU."
+
+Additionally, it's worth noting a sudden decline in the dataset's last few days. This drop is likely due to a lag in data updating, rather than an actual decrease in incidents. To mitigate this issue, we will exclude the last 14 days from the training and validation processes to ensure the model's accuracy and reliability.
+
 #### Feature Engineering
 
 In order to improve model performance, we undertake several feature engineering steps:
@@ -58,7 +62,7 @@ In order to improve model performance, we undertake several feature engineering 
 
 ### Data Visualization
 
-We plot distribution of number of crimes and its Q-Q plot compared to normal distribution. Additionally, a correlation matrix is rendered to showcase relationships between features and the target variable.
+We plot target objective function with is 30-day average of number of crimes per day in York Region, distribution of number of crimes and its Q-Q plot compared to normal distribution. Additionally, a correlation matrix is rendered to showcase relationships between features and the target variable.
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/normality.jpeg" align='center' width="700">
