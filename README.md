@@ -34,7 +34,7 @@ In order to improve model performance, we undertake several feature engineering 
   
 2. **Skewness Correction**: Given that some machine learning models are sensitive to feature skewness, we correct for it.
 
-<div align="center" style="padding-top:20px;">
+<div align="center" style="padding-top:20px; padding-bottom:20px;">
 <img src="src/img/skewness.jpeg" align='center' width="700">
 </div>
 
