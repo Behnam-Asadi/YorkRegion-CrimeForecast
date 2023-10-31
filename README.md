@@ -37,7 +37,7 @@ We further refine the dataset through feature engineering. Particularly:
 <div align="center">
 <img  src="src/img/skewness.jpeg"  align = 'center' width="700">
 </div>
-\\
+\
 4. **Feature Standardization**: We apply minmax scaler on fearues.
 
 ### Data Visualization
