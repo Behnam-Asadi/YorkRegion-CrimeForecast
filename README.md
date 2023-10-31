@@ -27,7 +27,7 @@ Along with data of the crimes committed in York Region including date, district 
 
 #### Feature Engineeering
 
-Next step is feature Engineering. We massage the distribution of features including feature standardization and skewness correction add new features to dataset. Particularly:
+We further refine the dataset through feature engineering. Particularly:
 
   
 1. **Weighted Moving Averages**: We create mutiple new features with taking weighted averges of different features of original dataset like number of crimes, mean temperature, log of precipitation, snow on ground, icu patients and unemployment rate over the last 30 days with differnt weights.
