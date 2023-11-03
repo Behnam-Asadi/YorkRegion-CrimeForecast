@@ -170,10 +170,6 @@ adequate staffing on Fridays will be critical to address these challenges.
   - Although holidays see
 fewer calls, the higher number of exceptions indicates a need for strategic scheduling.
 
-- Key Takeaways:
-   - Resource allocation and scheduling might face challenges during warmer
-months plus December when both calls and exceptions are high.
-
 ### Conclusion:
 Effective planning and anticipation of resource requirements are essential, particularly
 during warmer months, on Fridays, and in December, to maintain a consistent and efficient response
