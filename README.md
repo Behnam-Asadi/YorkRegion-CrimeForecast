@@ -131,3 +131,15 @@ In this task we try to find possible future 4 District staffing challenges by lo
 2. **Calls for Service Data**: Calls for Service Demand in 4 District Dataset.
   
 3. **Historical Crime Data**: The number of crimes reported in the preceding 30 days.
+
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/daily_offs.jpeg" align='center' width="700">
+</div>
+<br>
+In the following plots we will try to find patterns between Offs, Calls and Crimes:
+
+<div align="center" style="padding-top:20px; padding-bottom:200px;">
+<img src="src/img/off_call_crime.jpeg" align='center' width="700">
+</div>
+<br>
