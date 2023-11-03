@@ -132,6 +132,7 @@ In this task we try to find possible future 4 District staffing challenges by lo
   
 3. **Historical Crime Data**: The number of crimes reported in the preceding 30 days.
 
+### Visualization
 
 <div align="center" style="padding-top:20px; padding-bottom:200px;">
 <img src="src/img/daily_offs.jpeg" align='center' width="700">
@@ -143,3 +144,39 @@ In the following plots we will try to find patterns between Offs, Calls and Crim
 <img src="src/img/off_call_crime.jpeg" align='center' width="700">
 </div>
 <br>
+
+### Analysis of Scheduling Challenges in 4 District
+
+1. **Average Weekly and Monthly Aggregation**: 4 District front line platoons work exception codes (dates and number of hours that officers are off work for vacation, sick, training time etc)
+  
+2. **Average Aggregation by Weekday**: Calls for Service Demand in 4 District Dataset.
+  
+3. **Average Aggregation by Day of the Month**: The number of crimes reported in the preceding 30 days.
+
+4. **Holiday vs Non-holiday Aggregation**:
+1. :
+• From June to the end of the year, there’s a noticeable increase in exceptions, possibly
+due to the warmer weather in Canada. Simultaneously, there’s a rise in the number of
+calls, indicating a potential need for more officers during these months.
+61
+2. Average Aggregation by Weekday:
+• Fridays experience the highest number of officer offs and also record the most calls,
+highlighting a significant challenge for resource allocation on this day.
+3. Average Aggregation by Day of the Month:
+• No distinct trend is apparent in this aggregation, suggesting a consistent distribution of
+calls and exceptions throughout the month.
+4. Holiday vs Non-holiday Aggregation:
+• Although holidays record fewer calls than non-holidays, the number of exceptions is
+notably higher. This implies that more officers might be taking holidays off. Fortunately,
+the demand for calls is reduced during these times.
+Key Takeaways: - Resource allocation and scheduling might face challenges during warmer
+months plus December when both calls and exceptions are high. - Fridays stand out as particularly
+challenging, with a high number of officer offs coinciding with increased call demand. Ensuring
+adequate staffing on Fridays will be critical to address these challenges. - Although holidays see
+fewer calls, the higher number of exceptions indicates a need for strategic scheduling.
+Conclusion: Effective planning and anticipation of resource requirements are essential, particularly
+during warmer months, on Fridays, and in December, to maintain a consistent and efficient response
+to calls in 4 District. Please note that to accurately assess the situation, it’s crucial to have data
+on the total number of officers working each day, as there might be fewer officers available from the
+outset.
+
