@@ -122,3 +122,12 @@ Now we present final Forcast for the next 30 days.
 
 ## Task 2: Future Scheduling Challenges 
 
+### Objective
+
+In this task we try to find possible future 4 District staffing challenges by looking at:
+
+1. **4 District Front Line Exception Codes Data**: 4 District front line platoons work exception codes (dates and number of hours that officers are off work for vacation, sick, training time etc)
+  
+2. **Calls for Service Data**: Calls for Service Demand in 4 District Dataset.
+  
+3. **Historical Crime Data**: The number of crimes reported in the preceding 30 days.
